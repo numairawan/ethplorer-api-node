@@ -1,0 +1,20 @@
+{
+  "name": "ethplorer-api-node",
+  "version": "1.0.0",
+  "description": "A versatile Node.js library for Ethplorer's API with multi-key support and promise-based operations.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NumairAwan/ethplorer-api-node.git"
+  },
+  "keywords": ["etherscan", "etherscan-api", "ethereum-api", "ethereum-chain-api", "ethplorer", "ethplorer-api", "node-ethereum-api", "ethplorer-node-api"],
+  "author": "Numair Awan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NumairAwan/ethplorer-api-node/issues"
+  },
+  "homepage": "https://github.com/NumairAwan/ethplorer-api-node#readme",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
