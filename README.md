@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/NumairAwan/ethplorer-api-node/main/art/ethplorer-api-node.png" width="600" alt="ethplorer-api-node">
     <p align="center">
         <a href="https://github.com/NumairAwan/ethplorer-api-node"><img alt="Total Hits" src="https://hits.dwyl.com/NumairAwan/ethplorer-api-node.svg?style=flat-square"></a>
-        <a href="https://github.com/NumairAwan/ethplorer-api-node"><img alt="Downloads" src="https://img.shields.io/npm/dt/ethplorer-api-node"></a>
+        <a href="https://www.npmjs.com/package/ethplorer-api-node"><img alt="Downloads" src="https://img.shields.io/npm/dt/ethplorer-api-node"></a>
         <a href="https://www.npmjs.com/package/ethplorer-api-node"><img alt="Version" src="https://img.shields.io/npm/v/ethplorer-api-node?logo=npm&style=flat-square"></a>
         <a href="https://github.com/NumairAwan/ethplorer-api-node"><img alt="License" src="https://img.shields.io/github/license/numairawan/ethplorer-api-node"></a>
     </p>
