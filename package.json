@@ -1,6 +1,6 @@
 {
   "name": "ethplorer-api-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A versatile Node.js library for Ethplorer's API with multi-key support and promise-based operations.",
   "main": "index.js",
   "repository": {
