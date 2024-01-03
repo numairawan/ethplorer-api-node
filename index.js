@@ -93,9 +93,9 @@ class EthplorerApi {
    * @param {string} address - The Ethereum address.
    * @returns {Promise<any>} - A promise that resolves to address information.
    */
-  getAddressInfo(address) {
+  getAddressInfo(address, showETHTotals = true, showTxsCount = true) {
     const apiKey = this.getNextApiKey();
-    const url = `${this.apiAddress}getAddressInfo/${address}?apiKey=${apiKey}`;
+    const url = `${this.apiAddress}getAddressInfo/${address}?apiKey=${apiKey}&showETHTotals=${showETHTotals}&showTxsCount=${showTxsCount}`;
     return this.axiosRequest(url);
   }
 
