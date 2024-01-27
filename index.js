@@ -140,11 +140,16 @@ class EthplorerApi {
    * Retrieves address transactions by its address.
    * @param {string} token - The Ethereum address.
    * @param {number} limit - The maximum number of records to retrieve (default: 10).
+   * @param {boolean} showZeroValues - Show 0 value transactions
+   * @param {number} timestamp - Unix timestamp
    * @returns {Promise<any>} - A promise that resolves to address transactions.
    */
-  getAddressTransactions(token, limit = 10) {
+  getAddressTransactions(token, limit = 10, showZeroValues = true, timestamp = false) {
     const apiKey = this.getNextApiKey();
-    const url = `${this.apiAddress}getAddressTransactions/${token}?apiKey=${apiKey}&limit=${limit}`;
+    let url = `${this.apiAddress}getAddressTransactions/${token}?apiKey=${apiKey}&limit=${limit}&showZeroValues=${showZeroValues}`;
+    if (timestamp) {
+      url += `&timestamp=${timestamp}`;
+    }
     return this.axiosRequest(url);
   }
 
